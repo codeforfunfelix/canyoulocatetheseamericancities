@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap');
+
+body {
+  width: 100%;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+#game {
+   width: 100%;
+   text-align:center;
+}
+
+canvas {
+   display: inline;
+   cursor: crosshair;
+}
+
+button {
+  background-color: white;
+  border-style: solid;
+}
+
+#below-text {
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  line-height: 25px;
+}
+
+#footer {
+  line-height: 7px;
+  position: fixed;
+  left: 5px;
+  bottom: 0px;
+}
+
+#next-button-div {
+  display: flex;
+  justify-content: center;
+}
+
+#end-screen {
+  text-align: center;
+  display: none;
+}

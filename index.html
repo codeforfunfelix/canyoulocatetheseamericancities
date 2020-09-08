@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Can you locate these American Cities?</title>
+
+    <link rel="icon" href="favicon-image.jpg">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <img id="map" src="usa-map.png" style="display: none">
+
+    <div id="game">
+      <div id="next-button-div">
+        <button onclick="newLevel()" id="next-button" style="display:none">NEXT</button>
+      </div>
+      <button onclick="startGame()" id="start-button">START</button>
+      <p id="state-name"></p>
+      <canvas id="canvas">Your broswer does not support HTML canvas, and therefor cannot support this game.</canvas>
+      <img id="end-display">
+      <h3 id="score-display"></h3>
+    </div>
+
+    <div id="end-screen">
+      <a href="index.html"><button>Play Again</button></a>
+    </div>
+
+    <br>
+    <div id="below-text">
+    <h1>Can you locate these American cities?</h1>
+    <h2>Instructions</h2>
+    <p>Click START and try to click on the prompted city with the map. The farther away you guess from
+      the city, the higher your score gets, so be sure to keep it low!</p>
+    </div>
+
+    <p id="footer">&#169;Felix Singer 2020. All rights reserved. Webpage created with all fair use materials.</p>
+
+    <script src="coords.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
